@@ -14,6 +14,8 @@ import { PastTrainingComponent } from './training/past-training/past-training.co
 import { WelcomeComponent } from './welcome/welcome.component';
 import {AppRoutingModule} from './app-routing.module';
 import {FormsModule} from '@angular/forms';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavComponent } from './navigation/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import {FormsModule} from '@angular/forms';
     CurrentTrainingComponent,
     NewTrainingComponent,
     PastTrainingComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    HeaderComponent,
+    SidenavComponent
   ],
   imports: [
     FormsModule,
