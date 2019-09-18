@@ -15,7 +15,10 @@ import {
   MatSelectModule,
   MatProgressSpinnerModule,
   MatDialogModule,
-  MatTableModule
+  MatTableModule,
+  MatSortModule,
+  MatPaginatorModule,
+  MatSnackBarModule
 } from '@angular/material';
 import {AppRoutingModule} from './app-routing.module';
 
@@ -36,7 +39,10 @@ import {AppRoutingModule} from './app-routing.module';
     MatSelectModule,
     MatProgressSpinnerModule,
     MatDialogModule,
-    MatTableModule
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule,
+    MatSnackBarModule
   ],
   exports: [
     MatButtonModule,
@@ -54,7 +60,10 @@ import {AppRoutingModule} from './app-routing.module';
     MatSelectModule,
     MatProgressSpinnerModule,
     MatDialogModule,
-    MatTableModule
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule,
+    MatSnackBarModule
   ]
 })
 export class MaterialModule {}
